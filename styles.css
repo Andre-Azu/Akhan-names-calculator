@@ -1,0 +1,25 @@
+.container{
+ background-color: beige;
+ text-decoration: wavy;
+ text-size-adjust: 50%;
+}
+.birthdayinput{
+    text-shadow: 30px;
+    box-shadow: 20px;
+    border-radius: 100px;
+}
+.form{
+    background-color: aquamarine;
+   border: 89px;
+}
+p:hover {
+    text-decoration: underline;
+    }
+button {
+    cursor: pointer;
+    background-color: greenyellow;
+    box-shadow: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
