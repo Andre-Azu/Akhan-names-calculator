@@ -26,24 +26,33 @@
             <img src="/images/flag.jpeg" alt="Ghanian flag" width="40%" height="40%">
         </div>
         <div>
-            <div class="form">
-            <div class="birthdayinput">
-             <input type="date" class="form-control" id="floatingInput">
-             <label for="floatingInput">your birthday</label>
-             </div>
-             <div class="genderinput">
-                 <select class="form-select" aria-label="Default select example">
-                     <option selected>your gender</option>
-                     <option value="1">male</option>
-                     <option value="2">female</option>
-                     <option value="3">other</option>
-                   </select>
+            <div1>
+                <div class="card-group">
+                 <div class="card"> 
+                    <form name="myForm" onsubmit="return false">
+                    <label for="gender">gender</label>
+                    <select name="dropdown" id="selectgender"> select gender
+                        <option value=""></option>
+                        <option value="male" onclick="findname">Male</option>
+                        <option value="female" onclick="findname">Female</option>
+                        <option value="other" onclick="findname">Other</option>
+                    </select>
+                    Day of the Month(DD)<input type="number" id="day">
+                    Month(MM)<input type="number" id="month">
+                    Year(YY)<input type="number" id="year">
+                    <br>    
+                    century(CC)<input type="number" id="century">
+                </div1>
+                    </form>
+                </div>
+            </div>
                    <button class="btn btn-se" type="submit">check Akan names</button>
              </div>
             </div>
+            <div class="container">
             <div class="Row">
                 <div class="column">
-                <p>
+                <p2 class="card">
                     List of male names:
                     <ol>Sunday: Kwasi </ol>
 
@@ -58,11 +67,12 @@
                     <ol>Friday: Kofi</ol>
                         
                     <ol>Saturday: Kwame </ol>
-                </p>
+                </p2>
                 <img src="/images/ghanaboy.jpg" alt="Ghanian Boy" width="40%">
             </div>
+            <div class="row">
             <div class="column">
-                <p>
+                <p2 class="card">
                     List of female names: 
                     
                     <ol>Sunday: Akosua</ol>
@@ -79,11 +89,12 @@
                     
                     <ol>Saturday: Ama</ol>
                     
-                </p>
+                </p2>
                 <img src="/images/ghana girl.jpg" alt="Ghanian girl" width="40%">
 
             </div>
-            </div>
+            </div></div>
+        </div>
 </body>
 <script src="script.js"></script>
 </html>
