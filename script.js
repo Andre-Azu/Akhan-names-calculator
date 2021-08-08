@@ -8,9 +8,13 @@ parseInt(YY);
 parseInt(CC);
 parseInt(MM);
 let dayOfWeek=(((CC/4)-2*CC-1) +((5*YY/4) )+ ((26*(MM+1)/10)) + DD );
-if(gender =="male" || dayOfWeek == 1){
-    alert("kwasi");
-} else if alert("Akosua");
-$("button").click(function){
-    alert("dayOfWeek").value());
+if(gender =="" || "other"){
+    alert("gender cant be blank");
+        return false;
+} else if (DD == "" ||>31){
+    alert("invaid date")
+        return false;
+} else if(YY >10){
+    alert("invalid year fomart")
+        return false;
 }
